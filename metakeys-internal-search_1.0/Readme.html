@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Metakeys Internal Search 1.0</title>
+<style type=text/css>
+TD {color: #FFFFFF; font-family: Verdana; Font-Size: 12px}
+A {color: orange}
+</style>
+</head>
+<body bgcolor=#404040 text=#C0C0C0 onload="alert('M e t a k e y s  I n t e r n a l S e a r c h 1.0\n05 Sept 2001 - Matteo Figus\n\nwww.matteofigus.cjb.net\nmattfigs@supereva.it');"><font size=2 face=Verdana>
+<center><b><font size=+1>Metakeys Internal Search 1.0 (01 Sept 2001) by Matteo Figus<br><a href="http://www.matteofigus.cjb.net" target=new>www.matteofigus.cjb.net</a><br><a href="mailto:mattfigs@supereva.it">mattfigs@supereva.it</a></font></b><br><br><a href="#en">English</a><br><a href="#it">Italiano</a><br><br></center><br><br>
+<a name="en"><b>E N G L I S H</b></a><br>
+<br><b>:::Description:::</b><br>
+
+This is a simple script that allows to search a Keyword in the metatags of some files.<br>
+The script makes a parsing to all files of the selected directory (View settings.php), to find the Description, the title, and the keywords of each page.<br>
+There are three example files (Page1.htm, Page2.php, Page3.PHP3), view the Html source of these files.<br>
+This is the structure:<br><br>
+&lt;HTML&gt;<br>
+&lt;HEAD&gt;<br>
+<b>&lt;META Name=&quot;description&quot; Content=&quot;<i>Description of the page</i>&quot;&gt;<br>
+&lt;META Name=&quot;keywords&quot; Content=&quot;<i>Keyword1 keyword2 keyword3 keywordX</i>&quot;&gt;<br>
+&lt;TITLE&gt;<i>Title of the page</i>&lt;/TITLE&gt;</b><br>
+&lt;/head&gt;<br><br><i>Html of the page...</i><br><br>&lt;/html&gt;<br><br>
+In the 3rd row of each page you must insert the Description;<br>
+in the 4th row there are the keywords, separated by spaces;<br>
+in the 5th row there is the title.<br><br>
+Warning!!! you must insert each Meta-tag in a different line:<br>
+&lt;Meta Name=... Content=...&gt;&lt;Meta Name=... Content=...&gt;&lt;title&gt;....this makes an error!!!<br>
+<br>You can exclude some files from parsing by leaving the Meta-Keywords Box blank.<br>Example:<br>
+...<br>
+<b>&lt;META Name=&quot;description&quot; Content=&quot;<i>Description of the page</i>&quot;&gt;<br>
+&lt;META Name=&quot;keywords&quot; Content=&quot;&quot;&gt;<br>
+&lt;TITLE&gt;<i>Title of the page</i>&lt;/TITLE&gt;</b><br>...<br>
+
+<br>[<a href="http://www.matteofigus.cjb.net/script.php?ID=0002&lang=en" target=new>More Details On-Line &gt;&gt;</a>]
+<br><br><b>:::Usage:::</b><br>
+First Unzip all files and then upload them to the same directory.<br>
+Next edit the settings.php file to customize the scripts.<br>
+Next launch the index.php script (http://www.yourspace.com/dir-where-the-files-were-unzipped/index.php) and enjoy it!<br>
+You can test the search engine by inserting the 'news' or 'reviews' keywords.<br>
+Your webspace must support the Php scripting.
+<br><br><b>:::Terms & Conditions:::</b><br>
+This software may be used, modified, and distributed freely providing the copyright notice remains intact at the head of the files.<br>This software is freeware. The author accepts no liability for any loss or damages whatsoever incurred directly or indirectly from the use of this script.
+<br><br><b>:::Vote this Script:::</b><br>
+<a href="http://www.matteofigus.cjb.net/vote.php?ID=0002&lang=en&voto=1" target=new>Bleah!!</a><br>
+<a href="http://www.matteofigus.cjb.net/vote.php?ID=0002&lang=en&voto=2" taget=new>Useless</a><br>
+<a href="http://www.matteofigus.cjb.net/vote.php?ID=0002&lang=en&voto=3" taget=new>Ok :-|</a><br>
+<a href="http://www.matteofigus.cjb.net/vote.php?ID=0002&lang=en&voto=4" taget=new>Very Good!</a><br>
+<a href="http://www.matteofigus.cjb.net/vote.php?ID=0002&lang=en&voto=5" taget=new>Woow perfect!</a><br>
+<br><br><b>:::Feedbacks:::</b><br>
+You can add a feedback about this script by clicking <a href="http://www.matteofigus.cjb.net/addfeedback.php?lang=en&ID=0002" target=new>here</a>.<br><br>
+<a name="it"><b>I T A L I A N O</b></a><br>
+<br><b>:::Descrizione:::</b><br>
+
+Questo è un semplice script che cerca una parola chiave nei meta-tags di alcuni files.<br>
+Lo script esegue un parsing in tutti i files della directory selezionata (Vedi settings.php), per trovare la Descrizione, il titolo, e le parole-chiave associate ad ogni pagina.<br>
+Ci sono tre files di esempio (Page1.htm, Page2.php, Page3.PHP3), vedi il sorgente Html di questi.<br>
+Questa è la struttura:<br><br>
+&lt;HTML&gt;<br>
+&lt;HEAD&gt;<br>
+<b>&lt;META Name=&quot;description&quot; Content=&quot;<i>Descrizione della pagina</i>&quot;&gt;<br>
+&lt;META Name=&quot;keywords&quot; Content=&quot;<i>Chiave1 chiave2 chiave3 chiaveX</i>&quot;&gt;<br>
+&lt;TITLE&gt;<i>Titolo della pagina</i>&lt;/TITLE&gt;</b><br>
+&lt;/head&gt;<br><br><i>Html della pagina...</i><br><br>&lt;/html&gt;<br><br>
+Nella terza riga di ogni pagina devi inserire la Descrizione;<br>
+Nella quarta riga ci sono le parole-chiave, separate da spazi;<br>
+Nella quinta riga c'è il titolo.<br><br>
+Attenzione!!! è necessario che ogni Meta-tag venga inserito in una riga differente:<br>
+&lt;Meta Name=... Content=...&gt;&lt;Meta Name=... Content=...&gt;&lt;title&gt;....questo provocherebbe un errore!!!<br>
+<br>Puoi escludere alcuni files dal parsing lasciando vuoto il campo delle Meta-Keywords.<br>Esempio:<br>
+...<br>
+<b>&lt;META Name=&quot;description&quot; Content=&quot;<i>Descrizione della pagina</i>&quot;&gt;<br>
+&lt;META Name=&quot;keywords&quot; Content=&quot;&quot;&gt;<br>
+&lt;TITLE&gt;<i>Titolo della pagina</i>&lt;/TITLE&gt;</b><br>...<br>
+
+
+<br>[<a href="http://www.matteofigus.cjb.net/script.php?ID=0002&lang=it" target=new>Maggiori Dettagli On-Line &gt;&gt;</a>]
+<br><br><b>:::Utilizzo:::</b><br>
+Prima di tutto decomprimere tutti i files ed uploadarli nel proprio spazio web nella stessa directory.<br>
+Dopo editate il file settings.php per personalizzare gli scripts.<br>
+Dopo lanciate lo script index.php (http://www.tuospazioweb.com/dir-dove-stanno-i-files/index.php) e buon divertimento!<br>
+Per iniziare a testare lo script provate a cercare 'news' e 'reviews'.
+<br>Attenzione! E' necessario che il tuo spazio web supporti il Php.
+<br><br><b>:::Condizioni e Termini d'utilizzo:::</b><br>
+Questo software può essere utilizzato, modificato, e redistribuito gratuitamente a patto che le regole del copyright rimangano intatte nell'intestazione dei file.<br>Questo software è freeware. L'autore non si assume nessuna responsabilità per eventuali danni o pericoli causati direttamente o indirettamente dall'utilizzo di questo software.
+<br><br><b>:::Vota questo Script:::</b><br>
+<a href="http://www.matteofigus.cjb.net/vote.php?ID=0002&lang=it&voto=1" target=new>Bleah!!</a><br>
+<a href="http://www.matteofigus.cjb.net/vote.php?ID=0002&lang=it&voto=2" taget=new>Inutile</a><br>
+<a href="http://www.matteofigus.cjb.net/vote.php?ID=0002&lang=it&voto=3" taget=new>Ok :-|</a><br>
+<a href="http://www.matteofigus.cjb.net/vote.php?ID=0002&lang=it&voto=4" taget=new>Moolto bene!</a><br>
+<a href="http://www.matteofigus.cjb.net/vote.php?ID=0002&lang=it&voto=5" taget=new>Woow perfetto!</a><br>
+<br><br><b>:::Commenti:::</b><br>
+Puoi inserire un tuo commento su questo script facendo click <a href="http://www.matteofigus.cjb.net/addfeedback.php?lang=it&ID=0002" target=new>qui</a>.
+</font>
+</body>
+</html>
